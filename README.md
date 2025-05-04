@@ -1,2 +1,102 @@
 # EkoVizyon
 Teknofest Takımı
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>EkoVizyon Takımı</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+    header {
+      background-color: rgba(0, 102, 153, 0.8);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: rgba(0, 68, 102, 0.8);
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .content {
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 15px;
+    }
+    .team-member {
+      margin-bottom: 20px;
+    }
+    .team-member h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://drive.google.com/uc?export=view&id=1q9Dz48sHo2nAvY115P03JVJDngHXlCxn" alt="EkoVizyon Logo" style="height:100px;">
+  <h1>EkoVizyon Takımı</h1>
+  <p>Teknofest 2025 | İnsan Yararına Teknoloji Kategorisi</p>
+</header>
+
+<nav>
+  <a href="#">Ana Sayfa</a>
+  <a href="#">Takım Üyeleri</a>
+  <a href="#">Proje Detayları</a>
+  <a href="#">İletişim</a>
+</nav>
+
+<div class="content">
+  <h2>Hoş Geldiniz!</h2>
+  <p>EkoVizyon, insan hayatını kolaylaştıran yenilikçi ve sürdürülebilir teknolojiler geliştirmek amacıyla bir araya gelmiş bir ekipten oluşmaktadır. İnsan Yararına Teknoloji kategorisinde yarışarak, Akıllı Çanta projemizle günlük hayatı daha pratik ve çevre dostu hale getirmeyi hedefliyoruz.</p>
+
+  <h2>Takım Üyeleri</h2>
+
+  <div class="team-member">
+    <h3>Danışman</h3>
+    <p><strong>Ad Soyad:</strong> Ali CANATAN</p>
+  </div>
+
+  <div class="team-member">
+    <h3>Kaptan</h3>
+    <p><strong>Ad Soyad:</strong> Caner ATAY</p>
+    <p><strong>Görev:</strong> Tasarımcı ve Yazılımcı</p>
+  </div>
+
+  <div class="team-member">
+    <h3>Üye</h3>
+    <p><strong>Ad Soyad:</strong> Muhammed Üveys ÇOSAR</p>
+    <p><strong>Görev:</strong> Tasarımcı</p>
+  </div>
+
+  <h2>Takım Hikayesi</h2>
+  <p>Takımımızın temelleri ortaokul yıllarımıza dayanmaktadır. Atölye derslerinde birlikte projeler geliştirerek teknolojiye olan ilgimizi keşfettik. Liseye geçtiğimizde bu tutkuyu daha ileriye taşımak ve Teknofest 2025’te yer almak için tekrar bir araya geldik. Böylece EkoVizyon doğdu!</p>
+
+  <h2>İletişim</h2>
+  <p>Instagram: <a href="https://www.instagram.com/ekovizyon2025/" target="_blank">@ekovizyon2025</a></p>
+</div>
+
+<footer>
+  &copy; 2025 EkoVizyon Takımı
+</footer>
+
+</body>
+</html>
